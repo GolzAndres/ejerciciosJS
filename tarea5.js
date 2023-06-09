@@ -1,23 +1,42 @@
 
 // // numero 5
-var valor1 = 1.70
-var imc = 25
-peso =(valor1 * valor1) * imc
-
-if (imc <= 18.5){
-  console.log ("es delgado o bajo peso")
-}
-
-else if (imc >= 18.5 & imc <= 24.9){
-  console.log ("peso normal o peso saludable")
-}
-
-else if (imc >= 25.0 & imc <= 29.9){
-  console.log ("esta en sobrepeso")  
-}
-  
-
-else if(imc >= 30.0){
-  console.log ("esta en obesidad")
+let mesesdias = "enero"
+switch (mesesdias){
+  case "enero":
+    console.log("tiene 31 dias");
+    break;
+  case "febrero":
+    console.log("tiene 28 dias")
+    break;
+  case "marzo":
+    console.log("tiene 31 dias")
+    break;
+  case "abril":
+    console.log("tiene 30 dias");
+    break;
+  case "mayo":
+    console.log("tiene 31 dias");
+    break;
+  case "junio":
+    console.log("tiene 30 dias");
+    break;
+  case "julio":
+    console.log("tiene 31 dias");
+    break;
+  case "agosto":
+    console.log("tiene 31 dias");
+    break;
+  case "septiembre":
+    console.log("tiene 30 dias");
+    break;
+  case "octubre":
+    console.log("tiene 31 dias");
+    break;
+  case "noviembre":
+    console.log("tiene 30 dias");
+    break;
+  case "diciembre":
+    console.log("tiene 31 dias");
+    break;                   
 }
 
